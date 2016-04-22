@@ -8,12 +8,59 @@
 
 /* TEXT */
 .car_booking_item_text {
-	padding-top: 30px;
+	padding-top: 10px;
 	font-family: "Geometria-Medium"; 
 	color: #fff;
 	font-size: 12px;
 }
+.car_booking_item_text h2 {
+	margin: 0;
+	padding: 0;
+	font-family: "Geometria-Medium";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 18px;
+	color: #fff;
+	letter-spacing: 1px;
+}
 
+.car_booking_item_text p {
+	margin-top: 10px;
+	margin-bottom: 0px;
+	line-height: 1.4;
+	padding: 0;
+	font-family: "Geometria";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 14px;
+	color: #fff;
+}
+
+.car_booking_item_text span {
+	font-family: "Geometria-Medium";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 14px;
+	color: #fff;
+	border-bottom: 1px solid #fff;
+	margin-right: 5px;
+}
+
+.car_booking_item_text a {
+	font-family: "Geometria-Medium";
+	font-weight: normal;
+	font-style: italic;
+	font-size: 16px;
+	text-decoration: underline;
+	color: #fff;
+	line-height: 2;
+	-webkit-transition: all .55s;
+	-o-transition: all .35s;
+	transition: all .35s;
+}
+.car_booking_item_text a:hover {
+	text-decoration: none;
+}
 
 /* item car */
 .car_booking_item_car {
@@ -45,31 +92,41 @@
 /* ICONS */
 .car_booking_item_icons {
 	position: relative;
-	padding-top: 90px;
-	margin-left: 0;
+	padding-top: 10px;
+	padding-left: 50px;
 }
-.car_booking_item_icons .car_booking_icons {
-	padding-bottom: 20px;
-	padding-right: 0;
-}
-.car_booking_item_icons .car_booking_icons img {
-	position: relative;
-	float: left;
-	max-width: 25px;
-	max-height: 25px;
-	height: 100%;
-	width: 100%;
-}
-.car_booking_item_icons .car_booking_icons p {
-	position: relative;
-	float: left;
-	font-size: 16px;
-	color: #fff;
+.car_booking_item_icons h2 {
 	margin: 0;
-	margin-top: 2px;
-	padding-left: 20px;
+	padding: 0;
+	font-family: "Geometria-Medium";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 18px;
+	color: #fff;
+	letter-spacing: 1px;
 }
 
+.car_booking_item_icons p {
+	margin-top: 10px;
+	margin-bottom: 0px;
+	line-height: 1.4;
+	padding: 0;
+	font-family: "Geometria";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 14px;
+	color: #fff;
+}
+
+.car_booking_item_icons span {
+	font-family: "Geometria-Medium";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 14px;
+	color: #fff;
+	border-bottom: 1px solid #fff;
+	margin-right: 5px;
+}
 /* SALE */
 .car_booking_day_sale {
 	position: relative;
