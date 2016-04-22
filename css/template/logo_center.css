@@ -1,0 +1,19 @@
+.logo_center {
+	padding-top: 100px;
+	padding-bottom: 20px;
+	text-align: center;
+	color: #fff;
+}
+
+.logo_center h1 {
+	margin: 0;
+	font-size: 75px;
+	letter-spacing: 4px;
+	line-height: 45px;
+}
+
+.logo_center small {
+	margin: 0;
+	margin-left: 28%;
+	font-size: 30px;
+}

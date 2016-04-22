@@ -1,0 +1,101 @@
+.catalog_content .catalog_item {
+	position: relative;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #ccc;
+}
+.catalog_content .catalog_item .catalog_item_title {
+	text-align: center;
+	font-size: 26px;
+	color: #fff;
+	letter-spacing: 1px;
+}
+.catalog_content .catalog_item .catalog_item_img {
+	position: relative;
+	text-align: center;
+	margin-left: 0;
+}
+
+.catalog_content .catalog_item .catalog_item_img .catalog_item_sale {
+	position: absolute;
+	bottom: 10%;
+	left: 0%;
+	height: 40px;
+	width: 150px;
+	padding-top: 6px;
+	background-color: #990000;
+	-moz-box-shadow: -1px 3px 3px #656565;
+	-webkit-box-shadow: -1px 3px 3px #656565;
+	box-shadow: -1px 3px 3px #656565;
+}
+
+.catalog_content .catalog_item .catalog_item_img .catalog_item_sale span {
+	font-family: "Geometria";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 18px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+
+.catalog_content .catalog_item .catalog_item_img img {
+	width: 100%;
+	height: 100%;
+}
+.catalog_content .catalog_item .catalog_item_icons {
+	position: relative;
+	margin-top: 40px;
+	margin-left: 0px;
+}
+.catalog_content .catalog_item .catalog_item_icons .catalog_icons {
+	padding-bottom: 20px;
+}
+.catalog_content .catalog_item .catalog_item_icons .catalog_icons img {
+	position: relative;
+	float: left;
+	max-width: 35px;
+	max-height: 35px;
+	height: 100%;
+	width: 100%;
+}
+.catalog_content .catalog_item .catalog_item_icons .catalog_icons p {
+	position: relative;
+	float: right;
+	font-size: 20px;
+	color: #fff;
+	margin: 0;
+	margin-top: 2px;
+}
+.catalog_content .catalog_item .catalog_item_button {
+	text-align: right;
+	padding-right: 20px;
+}
+.catalog_content .catalog_item .catalog_item_button p {
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 10px;
+	padding-right: 10px;
+}
+.catalog_content .catalog_item .catalog_item_button p strong {
+	font-size: 40px;
+	font-weight: normal;
+	color: #fff;
+	padding-left: 5px;
+}
+.catalog_content .catalog_item .catalog_item_button a {
+	padding: 3px 45px;
+	outline: none;
+	background-color: #99cc66;
+	color: #fff;
+	border: 1px solid #99cc66;
+	-webkit-transition: all .55s;
+	-o-transition: all .35s;
+	transition: all .35s;
+}
+.catalog_content .catalog_item .catalog_item_button a:hover {
+	background: none;
+	text-decoration: none;
+	border: 1px solid #99cc66;
+	color: #99cc66;
+}

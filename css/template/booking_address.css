@@ -1,0 +1,36 @@
+.booking_address {
+	position: relative;
+	padding: 10px 0px;
+	background-color: #99cc66;
+}
+
+.booking_address .booking {
+	float: left;
+}
+
+.booking_address .booking span {
+	font-size: 18px;
+	font-weight: normal;
+	font-style: normal;
+	color: #fff;
+}
+
+.booking_address .booking a {
+	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	color: #fff;
+}
+
+.booking_address .booking img {
+	max-width: 38px;
+	max-height: 24px;
+	margin-right: -5px;
+}
+
+.booking_address .address span {
+	font-size: 18px;
+	font-weight: normal;
+	font-style: normal;
+	color: #fff;
+}

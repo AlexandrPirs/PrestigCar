@@ -1,0 +1,40 @@
+.map {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	max-height: 450px;
+}
+
+.footer_map {
+	position: relative;
+	padding: 30px 0px;
+	text-align: center;
+}
+
+.footer_map span {
+	font-family: "Geometria-Medium";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 26px;
+	line-height: 30px;
+	color: #666;
+}
+
+.footer_map a {
+	font-family: "Geometria-Medium";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 20px;
+	color: #666;
+}
+
+.footer_map .social_footer_map {
+	position: relative;
+	margin-top: 25px;
+}
+
+.footer_map .social_footer_map img {
+	max-width: 40px;
+	max-height: 40px;
+}
+

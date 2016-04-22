@@ -1,0 +1,82 @@
+.search_auto {
+	position: relative;
+	padding-bottom: 60px;
+}
+
+.search_auto .title {
+	position: relative;
+	text-align: left;
+	margin: 0;
+	font-size: 26px;
+	color: #fff;
+	letter-spacing: 1px;
+	padding-bottom: 10px;
+}
+
+.search_auto form {
+	position: relative;
+	width: 100%;
+	min-height: 220px;
+	background-color: #eee;
+	border-radius: 4px;
+	-moz-box-shadow: -2px 7px 7px rgba(0,0,0,.35);
+	-webkit-box-shadow: -2px 7px 7px rgba(0,0,0,.35);
+	box-shadow: -2px 7px 7px rgba(0,0,0,.35);
+	padding: 15px 0px;
+}
+
+.search_auto form span {
+	font-size: 18px;
+	margin: 0;
+}
+
+.search_auto form input {
+	width: 100%;
+	outline: none;
+	text-align: center;
+	font-size: 12px;
+	height: 31px;
+	border: 2px solid #99cc66;
+	margin-bottom: 10px;
+	background-color: #fff;
+	color: #000;
+	-webkit-transition: all .55s;
+	-o-transition: all .35s;
+	transition: all .35s;
+}
+
+.search_auto form select {
+	width: 50%;
+	outline: none;
+	text-align: center;
+	font-size: 12px;
+	height: 31px;
+	border: 2px solid #99cc66;
+	margin-bottom: 10px;
+	background-color: #fff;
+	color: #000;
+	-webkit-transition: all .55s;
+	-o-transition: all .35s;
+	transition: all .35s;
+}
+
+.search_auto form .button {
+	width: 100%;
+	outline: none;
+	text-align: center;
+	height: 31px;
+	border: none;
+	background-color: #99cc66;
+	border: 2px solid #99cc66;
+	color: #fff;
+	margin-top: 15px;
+	-webkit-transition: all .55s;
+	-o-transition: all .35s;
+	transition: all .35s;
+}
+
+.search_auto form .button:hover {
+	background-color: #fff;
+	border: 2px solid #99cc66;
+	color: #99cc66;
+}

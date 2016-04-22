@@ -1,0 +1,62 @@
+.about_title {
+	position: relative;
+	width: 100%;
+}
+
+.about_title p {
+	font-family: "Geometria-Medium";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 16px;
+	margin-top: 25px;
+	color: #fff;
+}
+
+
+.about_team {
+	position: relative;
+	padding: 60px 0px;
+}
+
+.about_team .about_team_title {
+	position: relative;
+	text-align: center;
+	color: #fff;
+	padding-bottom: 15px;
+	text-align: center;
+	font-size: 26px;
+	letter-spacing: 1px;
+	text-shadow: 2px 7px 7px rgba(0,0,0,.35);
+}
+
+.about_team .about_team_item {
+	position: relative;
+	text-align: center;
+	min-height: 400px;
+	padding: 50px 0px;
+}
+
+.about_team .about_team_item img {
+	max-width: 190px;
+	max-height: 190px;
+	height: 100%;
+	width: 100%;
+}
+
+.about_team .about_team_item h1 {
+	margin: 0;
+	font-family: "Geometria-Medium";
+	font-weight: normal;
+	font-style: italic;
+	font-size: 30px;
+	color: #fff;
+}
+
+.about_team .about_team_item p {
+	margin: 0;
+	font-family: "Geometria-Medium";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 16px;
+	color: #fff;
+}

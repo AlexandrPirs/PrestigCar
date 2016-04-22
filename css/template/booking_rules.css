@@ -1,0 +1,47 @@
+.booking_rules {
+	position: relative;
+	padding: 20px 0px;
+}
+
+.booking_rules .booking_rules_content {
+	position: relative;
+}
+
+.booking_rules .booking_rules_content span {
+	position: relative;
+	text-align: left;
+	margin: 0;
+	font-family: "Geometria-Medium";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 26px;
+	color: #666;
+	letter-spacing: 1px;
+
+}
+
+.booking_rules .booking_rules_content ul {
+	list-style-type: none;
+	padding-left: 0px;
+	margin: 0;
+	font-family: "Geometria-Medium";
+	font-weight: normal;
+	font-style: normal;
+	color: #666;
+}
+
+.booking_rules .booking_rules_content a {
+	text-decoration: underline;
+	font-family: "Geometria-Medium";
+	font-weight: normal;
+	font-style: normal;
+	color: #666;
+	font-size: 18px;
+	-webkit-transition: all .55s;
+	-o-transition: all .35s;
+	transition: all .35s;
+}
+
+.booking_rules .booking_rules_content a:hover {
+	text-decoration: none;
+}

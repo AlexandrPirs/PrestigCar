@@ -1,0 +1,13 @@
+.contact_center {
+	padding: 30px 0px;
+	text-align: center;
+	color: #fff;
+}
+
+.contact_center span {
+	font-family: "Geometria-Medium";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 26px;
+	line-height: 30px;
+}

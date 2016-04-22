@@ -1,0 +1,35 @@
+.reviews_and_logo {
+	position: relative;
+	padding: 30px 0px;
+}
+
+.reviews_and_logo .title {
+	position: relative;
+	text-align: left;
+	margin: 0;
+	font-size: 26px;
+	color: #666;
+	letter-spacing: 1px;
+	padding-bottom: 20px;
+}
+
+.reviews_and_logo .s_review_item p {
+	color: #666;
+	text-align: center;
+}
+
+.reviews_and_logo .s_review_item a {
+	color: #666;
+	text-decoration: underline;
+	font-family: "Geometria";
+	font-weight: normal;
+	font-style: italic;
+	-webkit-transition: all .55s;
+	-o-transition: all .35s;
+	transition: all .35s;
+}
+
+.reviews_and_logo .s_review_item a:hover {
+	text-decoration: none;
+	color: #99cc66;
+}

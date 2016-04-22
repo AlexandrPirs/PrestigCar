@@ -1,0 +1,40 @@
+
+@font-face {
+	font-family: "Geometria"; /* имя шрифта для CSS правил */
+	src: local("Geometria"), /* проверяем наличие шрифта в ОС пользователя */
+	url("../fonts/Geometria/Geometria.otf"); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+}
+
+@font-face {
+	font-family: "Geometria-Bold"; /* имя шрифта для CSS правил */
+	src: local("Geometria-Bold"), /* проверяем наличие шрифта в ОС пользователя */
+	url("../fonts/Geometria/Geometria-Bold.otf"); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+}
+
+@font-face {
+	font-family: "Geometria-BoldItalic"; /* имя шрифта для CSS правил */
+	src: local("Geometria-BoldItalic"), /* проверяем наличие шрифта в ОС пользователя */
+	url("../fonts/Geometria/Geometria-BoldItalic.otf"); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+}
+
+@font-face {
+	font-family: "Geometria-Medium"; /* имя шрифта для CSS правил */
+	src: local("Geometria-Medium"), /* проверяем наличие шрифта в ОС пользователя */
+	url("../fonts/Geometria/Geometria-Medium.otf"); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+}
+
+@font-face {
+	font-family: "Geometria-Italic"; /* имя шрифта для CSS правил */
+	src: local("Geometria-Italic"), /* проверяем наличие шрифта в ОС пользователя */
+	url("../fonts/Geometria/Geometria-Italic.otf"); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+}
+
+@font-face {
+	font-family: "OpenSans-Regular";
+	src: url("../fonts/OpenSans/OpenSans-Regular.eot");
+	src: url("../fonts/OpenSans/OpenSans-Regular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/OpenSans/OpenSans-Regular.woff") format("woff"),
+	url("../fonts/OpenSans/OpenSans-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
