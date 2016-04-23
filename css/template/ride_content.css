@@ -1,0 +1,87 @@
+.ride_content {
+	padding: 30px 0px;
+	text-align: left;
+	color: #fff;
+}
+
+.ride_content img {
+	float: left;
+	max-width: 320px;
+	max-height: 320px;
+	height: 100%;
+	width: 100%;
+	padding-right: 40px;
+	padding-top: 20px;
+}
+
+.ride_content p {
+	color: #fff;
+}
+
+.ride_content span {
+	font-family: "Geometria-Medium";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 20px;
+}
+
+.footer_car {
+	position: relative;
+	padding: 30px 0px;
+}
+
+.footer_car .title {
+	position: relative;
+	text-align: left;
+	margin: 0;
+	font-size: 26px;
+	color: #999;
+	letter-spacing: 1px;
+	padding-bottom: 20px;
+}
+
+.footer_car .footer_car_item {
+	position: relative;
+	height: 100%;
+}
+
+.footer_car .footer_car_item .footer_car_title {
+	text-align: center;
+	font-size: 26px;
+	color: #999;
+	letter-spacing: 1px;
+}
+
+.footer_car .footer_car_item .footer_car_img {
+	text-align: center;
+}
+.footer_car .footer_car_item .footer_car_img img {
+	max-width: 340px;
+	max-height: 150px;
+}
+
+.footer_car .footer_car_item .footer_car_icon {
+	position: relative;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+.footer_car .footer_car_item .footer_car_icon .car_icon {
+	padding-bottom: 15px;
+}
+.footer_car .footer_car_item .footer_car_icon .car_icon img {
+	position: relative;
+	float: left;
+	max-width: 35px;
+	max-height: 35px;
+	height: 100%;
+	width: 100%;
+}
+.footer_car .footer_car_item .footer_car_icon .car_icon p {
+	position: relative;
+	text-align: center;
+	font-size: 20px;
+	color: #999;
+	margin: 0;
+	margin-top: 2px;
+}

@@ -127,6 +127,10 @@
 	border-bottom: 1px solid #fff;
 	margin-right: 5px;
 }
+.car_booking_item_icons span input {
+	cursor: pointer;
+	outline: none;
+}
 /* SALE */
 .car_booking_day_sale {
 	position: relative;

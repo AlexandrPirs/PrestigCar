@@ -159,6 +159,20 @@ a:focus {
 	background-size: cover; /* CSS3 */
 }
 
+.wrapper_ride {
+	position: relative;
+	width: 100%;
+	min-height: 280px;
+	height: 100%;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	background: url("../img/ride_bg.jpg") top center no-repeat;
+	-moz-background-size: cover; /* Firefox до 4.0 */
+	-webkit-background-size: cover; /* Safari и Chrome */
+	-o-background-size: cover; /* Opera до версии 10.53 */
+	background-size: cover; /* CSS3 */
+}
+
 .catalog_content {
 	position: relative;
 	padding: 30px 0px;
