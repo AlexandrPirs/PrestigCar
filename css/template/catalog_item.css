@@ -1,3 +1,13 @@
+.catalog_content .title {
+	position: relative;
+	text-align: left;
+	margin: 0;
+	font-size: 26px;
+	color: #fff;
+	letter-spacing: 1px;
+	padding-bottom: 30px;
+}
+
 .catalog_content .catalog_item {
 	position: relative;
 	margin-top: 30px;
@@ -30,6 +40,28 @@
 }
 
 .catalog_content .catalog_item .catalog_item_img .catalog_item_sale span {
+	font-family: "Geometria";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 18px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.catalog_content .catalog_item .catalog_item_img .catalog_item_sentence {
+	position: absolute;
+	bottom: 10%;
+	left: 0%;
+	height: 40px;
+	width: 150px;
+	padding-top: 6px;
+	background-color: #99cc66;
+	-moz-box-shadow: -1px 3px 3px #656565;
+	-webkit-box-shadow: -1px 3px 3px #656565;
+	box-shadow: -1px 3px 3px #656565;
+}
+
+.catalog_content .catalog_item .catalog_item_img .catalog_item_sentence span {
 	font-family: "Geometria";
 	font-weight: normal;
 	font-style: normal;

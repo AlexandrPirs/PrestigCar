@@ -1,0 +1,82 @@
+
+.korpus > div, .korpus > input { 
+	display: none;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px; 
+}
+
+.korpus > div {
+	width: 100%;
+
+}
+
+.korpus label {
+	position: relative; 
+	margin-right: -1px;  
+	cursor: pointer; 
+	text-align: center;
+	background-color: #dcdcdc;
+	position: relative;
+	padding: 15px 0px;
+}
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.korpus input[type="radio"]:checked + a { 
+	
+}
+
+.korpus > input:nth-of-type(1):checked ~ div:nth-of-type(1),
+.korpus > input:nth-of-type(2):checked ~ div:nth-of-type(2),
+.korpus > input:nth-of-type(3):checked ~ div:nth-of-type(3),
+.korpus > input:nth-of-type(4):checked ~ div:nth-of-type(4),
+.korpus > input:nth-of-type(5):checked ~ div:nth-of-type(5),
+.korpus > input:nth-of-type(6):checked ~ div:nth-of-type(6) { 
+	display: block; 
+	padding: 5px; 
+}
+
+.korpus .item_tabs {
+	position: relative;
+}
+
+.korpus .item_tabs .item_tabs_buttom {
+	position: relative;
+	margin: 0px 50px;
+	padding: 5px;
+	outline: none;
+	text-align: center;
+	font-family: "Geometria", sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	color: #fff;
+	-webkit-transition: all .55s;
+	-o-transition: all .35s;
+	transition: all .35s;
+}
+
+.korpus label:hover .item_tabs_buttom {
+	background-color: #fff;
+}
+.red {
+	background-color: #990000;
+	border: 2px solid #990000;
+}
+.korpus label:hover .red {
+	border: 2px solid #990000;
+	color: #990000;
+}
+
+.green {
+	background-color: #99cc66;
+	border: 2px solid #99cc66;
+}
+.korpus label:hover .green {
+	border: 2px solid #99cc66;
+	color: #99cc66;
+}
