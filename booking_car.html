@@ -34,6 +34,7 @@
 	<link rel="stylesheet" href="css/template/car_booking_item.css">
 	<link rel="stylesheet" href="css/template/booking_address.css">
 	<link rel="stylesheet" href="css/template/car_booking_popup_form.css">
+	<link rel="stylesheet" href="css/template/characteristics_form.css">
 	
 
 	<!-- ОСНОВНЫЕ css.file -->
@@ -138,7 +139,7 @@
 							<p><span>Расход (л/100км):</span> 1.5 л.</p>
 							<p><span>Трансмиссия:</span> 1.5 л.</p>
 							<p><span>Привод:</span> 1.5 л.</p>
-							<a href="">полные характеристики</a>
+							<a href="#hidden_characteristics_form" class="popup_characteristics">полные характеристики</a>
 						</div>
 
 						<div class="car_booking_item_car col-md-4 col-sm-4 col-xs-12">
@@ -171,7 +172,8 @@
 						<div class="car_booking_item_icons col-md-4 col-sm-4 col-xs-12">
 							<h2>Технические характеристики:</h2>
 							<p><span>Cумма депозита, €:</span> 100€</p>
-							<p><span><input type="checkbox" value=""> Можно без депозита Оплата за день без депозита (€):</span> 5€/сутки</p>
+							<p><span><input type="checkbox" value=""> Можно без депозита</span></p>
+							<p><span>Оплата за день без депозита (€):</span>  5€/сутки</p>
 							<p><span>КАСКО:</span> есть</p>
 							<p><span>Страхование пассажиров:</span> есть</p>
 							<p><span>ОСАГО:</span> есть</p>
@@ -317,6 +319,55 @@
 
 
 	<div class="hidden">
+		<!-- car_booking_popup_FORM -->
+		<form class="characteristics_form" id="hidden_characteristics_form">
+			<h1 class="title">Характеристики</h1>
+
+			<div class="characteristics_item">
+				<h2>Двигатель:</h2>
+				<p>Объём двигателя (л.):<span>3.0</span></p>
+				<p>Мощность двигателя (л. с.):<span>245</span></p>
+				<p>Топливо:<span>Дизель</span></p>
+				<p>Объем бака (л.):<span>75.0</span></p>
+				<p>Средний расход топлива (л./100 км.):<span>10.0</span></p>
+			</div>
+
+			<div class="characteristics_item">
+				<h2>Ходовая часть:</h2>
+				<p>Трансмиссия:<span>Автомат</span></p>
+				<p>Привод:<span>Передний</span></p>
+				<p>ABS:<span>-</span></p>
+				<p>EBD<span>+</span></p>
+				<p>ESP:<span>-</span></p>
+			</div>
+
+			<div class="characteristics_item">
+				<h2>Комфорт:</h2>
+				<p>Места:<span>5</span></p>
+				<p>Кондиционер::<span>Климат 4 зоны</span></p>
+				<p>Салон::<span>Кожа-спорт</span></p>
+				<p>Крыша::<span>Стандарт</span></p>
+				<p>Стеклоподъемники:<span>2</span></p>
+				<p>Парктроник::<span>+</span></p>
+				<p>Подушки безопасности:<span>2</span></p>
+				<p>Сторона руля::<span>Левый</span></p>
+				<p>Фары:<span>Обычные</span></p>
+				<p>Количество дверей:<span>4</span></p>
+				<p>Круиз-контроль:<span>+</span></p>
+				<p>Камера заднего вида:<span>+</span></p>
+			</div>
+
+			<div class="characteristics_item">
+				<h2>Музыка:</h2>
+				<p>Radio:<span>+</span></p>
+				<p>Audio-CD:<span>+</span></p>
+				<p>Video-DVD:<span>-</span></p>
+				<p>USB:<span>-</span></p>
+				<p>MP3:<span>+</span></p>
+				<p>AUX:<span>+</span></p>
+			</div>
+		</form>
+
 		<!-- car_booking_popup_FORM -->
 		<form action="" class="car_booking_form" id="hidden_form">
 			<!-- top_form_title -->

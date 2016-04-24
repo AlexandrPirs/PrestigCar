@@ -7,7 +7,8 @@ $(function() {
 			enabled : true
 		}
 	});
-
+	//popup
+	$(".popup_characteristics").magnificPopup();
 
 	//popup
 	$(".popup_c").magnificPopup();

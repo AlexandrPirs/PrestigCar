@@ -12,6 +12,7 @@
 	width: 100%;
 	padding-right: 40px;
 	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .ride_content p {
@@ -67,7 +68,7 @@
 }
 
 .footer_car .footer_car_item .footer_car_icon .car_icon {
-	padding-bottom: 15px;
+	padding-bottom: 25px;
 }
 .footer_car .footer_car_item .footer_car_icon .car_icon img {
 	position: relative;
@@ -84,4 +85,26 @@
 	color: #999;
 	margin: 0;
 	margin-top: 2px;
+}
+
+.footer_car .footer_car_item .footer_car_button {
+	text-align: center;
+}
+
+.footer_car .footer_car_item .footer_car_button a {
+	padding: 3px 45px;
+	outline: none;
+	background-color: #99cc66;
+	color: #fff;
+	border: 1px solid #99cc66;
+	-webkit-transition: all .55s;
+	-o-transition: all .35s;
+	transition: all .35s;
+}
+
+.footer_car .footer_car_item .footer_car_button a:hover {
+	background: none;
+	text-decoration: none;
+	border: 1px solid #99cc66;
+	color: #99cc66;
 }
