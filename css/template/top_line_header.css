@@ -7,7 +7,6 @@
 
 .top_line_header .slogon {
 	float: left;
-	width: 25%;
 	margin-top: 10px;
 }
 
@@ -18,7 +17,7 @@
 }
 
 .top_line_header .slogon select {
-	width: 150px;
+	max-width: 150px;
 	height: 28px;
 	font-family: "Geometria";
 	font-size: 14px;
@@ -29,6 +28,7 @@
 }
 
 .top_line_header .slogon span {
+	display: block;
 	font-family: "Geometria-Italic";
 	font-size: 18px;
 	font-style: normal;

@@ -8,6 +8,10 @@
 	float: left;
 }
 
+.booking_address .address {
+	text-align: right;
+}
+
 .booking_address .booking span {
 	font-size: 18px;
 	font-weight: normal;

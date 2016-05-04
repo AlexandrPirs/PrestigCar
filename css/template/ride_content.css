@@ -47,6 +47,7 @@
 }
 
 .footer_car .footer_car_item .footer_car_title {
+	position: relative;
 	text-align: center;
 	font-size: 26px;
 	color: #999;
@@ -54,6 +55,7 @@
 }
 
 .footer_car .footer_car_item .footer_car_img {
+	position: relative;
 	text-align: center;
 }
 .footer_car .footer_car_item .footer_car_img img {
@@ -63,6 +65,7 @@
 
 .footer_car .footer_car_item .footer_car_icon {
 	position: relative;
+	min-height: 100px;
 	padding-left: 15%;
 	padding-right: 15%;
 }
@@ -88,7 +91,9 @@
 }
 
 .footer_car .footer_car_item .footer_car_button {
+	position: relative;
 	text-align: center;
+	padding-top: 20px 0px;
 }
 
 .footer_car .footer_car_item .footer_car_button a {
@@ -100,6 +105,7 @@
 	-webkit-transition: all .55s;
 	-o-transition: all .35s;
 	transition: all .35s;
+	margin-top: 30px;
 }
 
 .footer_car .footer_car_item .footer_car_button a:hover {

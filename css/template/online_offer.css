@@ -64,12 +64,12 @@
 	background-color: #fff;
 }
 .red {
-	background-color: #990000;
-	border: 2px solid #990000;
+	background-color: #ff9933;
+	border: 2px solid #ff9933;
 }
 .korpus label:hover .red {
-	border: 2px solid #990000;
-	color: #990000;
+	border: 2px solid #ff9933;
+	color: #ff9933;
 }
 
 .green {

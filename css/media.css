@@ -3,9 +3,7 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 	
-	.top_line_header .slogon {
-		width: 30%;
-	}
+	
 
 	/* -------------------- booking_car.HTML */
 	.car_booking_item_text {
@@ -31,6 +29,9 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 	/* -------------------- INDEX.HTML */
+	
+	
+
 	header .navigation ul {
 		display: none;
 		float: left;
@@ -145,13 +146,16 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
 	/* -------------------- INDEX.HTML */
-	.top_line_header .slogon {
+	.top_line_header .slogon span{
 		font-size: 16px;
-		margin-top: 7px;
 	}
 	.top_line_header .header_phone p {
 		font-size: 16px;
 		margin-top: -1px;
+	}
+
+	.logo_center h1 {
+		font-size: 50px;
 	}
 
 	.reviews_and_logo .logo {
@@ -421,20 +425,45 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 	/* -------------------- INDEX.HTML */
-	.top_line_header .slogon {
-		font-size: 12px;
-		margin-top: 10px;
+	.top_line_header {
+		height: 60px;
 	}
+	.top_line_header .slogon select {
+		margin-top: 6px;
+	}
+	.top_line_header .slogon span {
+		display: none;
+	}
+	.top_line_header .slogon img {
+		display: none;
+	}
+
 	.top_line_header .header_phone p {
 		font-size: 12px;
-		margin-top: 10px;
+		margin-top: 5px;
 	}
 	.top_line_header .header_phone span {
 		display: none;
 	}
 
+	.logo_center h1 {
+		font-size: 30px;
+		text-align: center;
+		line-height: 30px;
+	}
+	.logo_center small {
+		font-size: 18px;
+		margin: 0;
+	}
+
 	.reviews_and_logo .logo {
 		margin-top: 20px;
+	}
+	.reviews_and_logo .title {
+		font-size: 20px;
+	}
+	.reviews_and_logo .s_review_item p {
+		font-size: 14px;
 	}
 
 	.title_center h1 {
@@ -447,7 +476,7 @@
 	.search_auto {
 		padding-top: 15px;
 	}
-	.search_auto .search_auto_title {
+	.search_auto .title {
 		font-size: 20px;
 	}
 	.search_auto form {
@@ -465,7 +494,15 @@
 	.search_auto form .select_min {
 		margin-left: 8%;
 	}
+	
 
+	.s_news .title {
+		font-size: 20px;
+	}
+
+	.ride .title {
+		font-size: 20px;
+	}
 
 	.ride .ride_item {
 		width: 100%;
@@ -584,6 +621,7 @@
 
 	.about_title p {
 		font-size: 14px;
+		text-align: center;
 	}
 
 	.about_team .about_team_item {
@@ -593,6 +631,46 @@
 	}
 	/* -------------------- about_title */
 
+	/*------------------------- CONTATC*/
+
+	.contact_center span {
+		font-size: 20px;
+	}
+
+	.footer_map span {
+		font-size: 20px
+	}
+
+	.footer_map a {
+		font-size: 16px;
+	}
+	
+	/*------------------------- CONTATC*/
+
+	/* booking_address */
+	
+	.booking_address .booking {
+		width: 100%;
+		text-align: center;
+
+	}
+	.booking_address .address {
+		width: 100%;
+		text-align: center;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	/* booking_address */
+
+
+	/* -------------------- online_offer*/
+	
+	.catalog_content .title {
+		font-size: 22px;
+	}
+	
+	/* -------------------- online_offer*/
 
 	/* -------------------- HIDDEN_FORM */
 	.car_booking_form {
