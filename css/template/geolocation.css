@@ -1,0 +1,47 @@
+.geolocation {
+	position: relative;
+	height: 100%;
+	padding: 30px 0px;
+	background-color: rgba(204,204,204,0.9);
+}
+.geolocation .geolocation_title {
+	width: 70%;
+	position: relative;
+	float: left;
+}
+.geolocation .geolocation_title span {
+	font-family: "Geometria";
+	font-weight: normal;
+	font-style: italic;
+	font-size: 26px;
+	color: #99cc66;
+}
+.geolocation .geolocation_title p {
+	padding: 0;
+	margin: 0;
+	font-family: "Geometria-Medium";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 18px;
+	color: #fff;
+}
+.geolocation .geolocation_contacts {
+	position: relative;
+	float: right;
+	width: 30%;
+	text-align: right;
+}
+.geolocation .geolocation_contacts a {
+	font-size: 26px;
+	font-weight: normal;
+	font-style: normal;
+	color: #fff;
+	text-decoration: none;
+}
+.geolocation .geolocation_contacts a:hover {
+	text-decoration: underline;
+}
+.geolocation .geolocation_contacts img {
+	max-width: 40px;
+	max-height: 40px;
+}

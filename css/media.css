@@ -10,7 +10,7 @@
 		padding-top: 30px;
 	}
 	.car_booking_item_icons {
-		padding-top: 45px;
+		padding-top: 30px;
 	}
 	.car_booking_day_sale .car_booking_sale_item p {
 		font-size: 22px;
@@ -87,11 +87,8 @@
 	.car_booking_item_text {
 		font-size: 9px;
 	}
-	.car_booking_item_car {
-		padding-top: 40px;
-	}
 	.car_booking_item_icons {
-		padding-top: 45px;
+		padding-left: 0px;
 	}
 	.car_booking_item_icons .car_booking_icons p {
 		float: right;
@@ -141,6 +138,15 @@
 		margin-top: 2px;
 	}
 	/* -------------------- HIDDEN_FORM */
+
+
+	/* -------------------- characteristics_form */
+	.characteristics_form {
+		width: 90%;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	/* -------------------- characteristics_form */
 }
 
 /* Small Devices, Tablets */
@@ -189,6 +195,8 @@
 	/* -------------------- INDEX.HTML */
 
 
+
+
 	/* -------------------- CATALOG.HTML */
 	.catalog_content .catalog_item {
 		border-bottom: none;
@@ -229,9 +237,12 @@
 	/* -------------------- CATALOG.HTML */
 
 
+
+
 	/* -------------------- booking_car.HTML */
 	.car_booking_item_text {
 		font-size: 12px;
+		text-align: center;
 	}
 	.car_booking_item_car .car_booking_item_car_top {
 		width: 70%;
@@ -244,17 +255,25 @@
 		margin-left: 10%;
 	}
 	.car_booking_item_icons {
-		margin-left: 10%;
+		text-align: center;
+		font-size: 12px;
+		padding-left: 0;
 	}
 	.car_booking_item_icons .car_booking_icons p {
 		float: left;
 		padding-left: 10px;
+	}
+	.car_booking_services .car_booking_services_title {
+		font-size: 20px;
 	}
 	.car_booking_services form .car_booking_services_item {
 		width: 100%;
 		margin-left: 0;
 	}
 	/* -------------------- booking_car.HTML */
+
+
+
 
 	/* -------------------- online_booking.HTML */
 	.online_booking_form {
@@ -277,6 +296,9 @@
 	}
 
 	/* -------------------- reviews.HTML */
+
+
+
 	/* -------------------- reviews_hidden_form.HTML */
 	.reviews_hidden_form {
 		height: 385px;	
@@ -309,7 +331,7 @@
 	.car_booking_form {
 		width: 70%;
 		margin-left: 15%;
-		height: 1550px;
+		height: 1570px;
 	}
 	.car_booking_form .top_form_title h1 {
 		padding-right: 80px;
@@ -367,7 +389,7 @@
 		float: left;
 	}
 	.car_booking_form .bottom_form_content {
-		min-height: 700px;
+		min-height: 720px;
 	}
 	.car_booking_form .bottom_form_content .bottom_form_content_left {
 		width: 100%;
@@ -548,6 +570,7 @@
 	}
 	.car_booking_item_icons {
 		margin-left: 0px;
+		padding-left: 0px;
 	}
 	.car_booking_item_icons .car_booking_icons p {
 		font-size: 10px;
@@ -676,7 +699,7 @@
 	.car_booking_form {
 		width: 90%;
 		margin-left: 5%;
-		height: 1600px;
+		height: 1700px;
 	}
 	.car_booking_form .top_form_title h1 {
 		font-size: 20px;
@@ -695,16 +718,49 @@
 	}
 
 	.car_booking_form .bottom_form_content {
-		min-height: 730px;
+		min-height: 810px;
 	}
 
 	.car_booking_form .form_footer {
-		height: 105px;
+		height: 130px;
+	}
+	.car_booking_form .form_footer img {
+		display: block;
+		float: none;
+		margin: auto;
+	}
+	.car_booking_form .form_footer .button {
+		display: block;
+		float: none;
+		margin: auto;
+		margin-top: 5px;
+	}
+	.car_booking_form .form_footer .car_booking_services_item {
+		margin-top: 5px;
 	}
 	.car_booking_form .form_footer .car_booking_services_item a {
 		width: 100%;
 	}
+
 	/* -------------------- HIDDEN_FORM */
+
+
+
+	/* -------------------- characteristics_form */
+	.characteristics_form .title {
+		font-size: 20px;
+	}
+	.characteristics_form .characteristics_item h2 {
+		font-size: 18px;
+		text-align: center;
+	}
+	.characteristics_form .characteristics_item p {
+		font-size: 12px;
+	}
+	.characteristics_form .characteristics_item span {
+		font-size: 12px;
+	}
+	/* -------------------- characteristics_form */
 }
 
 /* Custom, iPhone Retina */
